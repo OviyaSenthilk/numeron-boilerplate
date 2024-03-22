@@ -64,7 +64,7 @@ function gameOver() {
 // Iteration 4: Build a timer for the game
 
 
-var time=100;
+var time=10;
 
 var timer=document.getElementById('timer');
 
@@ -84,7 +84,7 @@ function setTimer(){
 }
 
 function resetTime(){
-    time=100;
+    time=10;
     clearInterval(timerId);
     timer.innerHTML=time;
     setTimer();
